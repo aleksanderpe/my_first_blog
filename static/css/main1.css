@@ -1,0 +1,146 @@
+#header {
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    float: left;
+    width: 70%;
+    border-top: 2px #dce0d9 solid;
+    border-left: 2px #dce0d9 solid;
+    border-bottom: 2px #dce0d9 solid;
+    background-color: #dce0d9
+
+}
+
+#aside {
+    float: left;
+    width: 29%;
+    border: 2px #96858F solid;
+    background-color: #E7DFDD
+
+}
+
+#menu_fieldset {
+    background-color: #96858F
+}
+
+#logo {
+    background-color: #E7DFDD
+
+}
+
+body {
+    background-color: #D5D5D5
+}
+
+#menu_buttons {
+    width: 60%;
+    float: left;
+    background-color: #96858F
+
+}
+
+#footer_fieldset {
+    background-color: #96858F
+}
+
+#footer {
+    float: left;
+    padding-left: 200px;
+    padding-right: 205px;
+    padding-bottom: 200px;
+}
+
+#main_aside{
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+
+#search_and_btn {
+    float: right;
+    width: 30%;
+}
+
+#search_text {
+    width: 100%;
+}
+
+#new_posts_p {
+    width: 1000px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+    padding-bottom: 7px;
+
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#popular_posts_p {
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+#search {
+    float: left;
+    width: 75%
+}
+
+#search_btn {
+    float: left;
+    width: 25%;
+}
+
+#newsletter {
+    text-align: center;
+}
+
+#news_input {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#submit_btn {
+    margin-bottom: 10px;
+}
+
+
+
+#foot_p {
+    text-align: center;
+    margin: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#social_btns {
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 17px;
+
+}
+
+#post_h1 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: #E7DFDD;
+}
+
+#popular_posts_h1 {
+    background-color: #E7DFDD;
+    padding-bottom: 2px;
+}
