@@ -8,50 +8,54 @@ p {
 #main {
     float: left;
     width: 70%;
-    border-top: 2px #96858F solid;
-    border-left: 2px #96858F solid;
-    border-bottom: 2px #96858F solid;
-    background-color: #dce0d9
+    box-shadow: 5px 5px 5px 5px gray;
+    background-color: #d3d3d3;
 
 }
 
 #aside {
     float: left;
-    width: 29%;
-    border: 2px #96858F solid;
-    background-color: #E7DFDD
-
+    width: 30%;
+    border: 0px #96858F solid;
+    background-color: #171769;
+    box-shadow: 12px 12px 12px 12px gray
 }
 
+.aside_h1 {
+    text-align: center;
+    color: #bfbfbf;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 #menu_fieldset {
-    background-color: #dce0d9
+    background-color: #dce0d9;
 }
 
 #logo {
-    background-color: #E7DFDD
+    background-color: #E7DFDD;
 
 }
 
 body {
-    background-color: #D5D5D5
+    background-color: #f2f2f2;
 }
 
 #menu_buttons {
     width: 60%;
     float: left;
-    background-color: #dce0d9
+    background-color: #dce0d9;
 
 }
 
 #footer_fieldset {
-    background-color: #96858F
+    background-color: #96858F;
 }
 
 #footer {
     margin-left: 200px;
-    width: 78.35%;
+    width: 78.9%;
     float: left;
-    background-color: #96858F
+    background-color: #96858F;
 
 }
 
@@ -60,6 +64,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 200px;
+
 }
 
 
@@ -74,27 +79,30 @@ body {
 
 #new_posts_p {
     width: 1000px;
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 13px;
     padding-bottom: 7px;
+    height: 46px;
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: #374049
 }
 
 #popular_posts_p {
     width: 400px;
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 11.5px;
+    margin: 21.5px;
+    height: 95px;
 }
 
 #search {
@@ -137,18 +145,20 @@ h1, h2, h3 {
 #social_btns {
     text-align: center;
     margin: 30px;
-    padding-bottom: 17px;
+    margin-bottom: 36.5px;
+    padding-bottom: 0px;
 
 }
 
 #post_h1 {
     padding-top: 10px;
     padding-bottom: 0px;
-    background-color: #E7DFDD;
+    background-color: #d3d3d3;
+
 }
 
 #popular_posts_h1 {
-    background-color: #E7DFDD;
+    background-color: #171769;
     padding-bottom: 2px;
 }
 
@@ -208,3 +218,9 @@ h1, h2, h3 {
     border-bottom: 2px #96858F solid;
     background-color: #96858F;
 }
+
+hr {
+    text-align: center;
+    width: 60%;
+}
+

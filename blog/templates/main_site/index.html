@@ -27,6 +27,7 @@
                     <input type = "button" value = search>
                 </div>
             </div>
+            </div>
             </fieldset>
             <div id = "main_aside">
             <div id = "main">
@@ -44,30 +45,30 @@
                     <p id = "new_posts_p">
                         {{post.content}}
                     </p>
-                    <p class="href"><a href="http://127.0.0.1:8000/index/{{post.id}}"> Czytaj Dalej! </a></p>
+                    <a href="http://127.0.0.1:8000/index/{{post.id}}"><h4> Czytaj Dalej! </h4></a>
                     {% endif %}
                 </div>
                 {% endfor %}
             </div>
             <div id = "aside">
                 <div id = "popular_posts_h1">
-                <h1> Popular Posts </h1>
+                <h1 class = "aside_h1"> Popular Posts </h1>
                 </div>
                 {% for post in popularne_posty %}
                 <div id = "{{ post.id }}">
                     {% if forloop.counter == 4 or forloop.counter == 3 or forloop.counter == 2 or forloop.counter == 1 %}
                         <hr>
-                        <h3> {{ post.post_title }} </h3> 
-                        <p id = "popular_posts_p">
+                        <h3 class = "aside_h1"> {{ post.post_title }} </h3> 
+                        <p id = "popular_posts_p" class = "aside_h1">
                             {{ post.content }}
                         </p>
-                        <p class = "href"> <a href="http://127.0.0.1:8000/index/{{post.id}}"> Czytaj Dalej!</a></p>
+                        <a href="http://127.0.0.1:8000/index/{{post.id}}"><h4 class = "aside_h1"> Czytaj Dalej! </h4></a>
                     {% endif %}
                 </div>
                 {% endfor %}
                 <div id = "newsletter">
                     <hr>
-                    <h1> Newsletter </h1>
+                    <h1 class = "aside_h1"> Newsletter </h1>
                     <div id = "email">
                     <input type="text" placeholder=" email " name = "newsletter_input" id = "news_input">
                     </div>
@@ -87,6 +88,5 @@
             <div id = "footer">
                 <p id = "foot_p"> Consectetur aliqua nulla in quis incididunt elit nulla laborum excepteur. Esse sit ea irure esse consequat reprehenderit proident. Incididunt excepteur dolor esse labore Lorem id ex exercitation ullamco.</p>
             </div>
-        </div>
     </body>
 </html>
