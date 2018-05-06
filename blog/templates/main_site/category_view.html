@@ -21,7 +21,7 @@
             </div>
             <div id = "search_and_btn">
                 <div id = "search">
-                    <input type = "search" placeholder="Search the site..." id = "search_text">
+                    <input type = "text" placeholder="search" id = "search_text">
                 </div>
                 <div id = "search_btn">
                     <input type = "button" value = search>
@@ -29,9 +29,9 @@
             </div>
             </fieldset>
             <div id = "main_aside">
-            <div id = "main">
+            <div id = "main_category_view">
                 <div id = "post_h1">
-                <h1 id = "new_posts_h1"> New Posts </h1>
+                <h1 id = "new_posts_h1"> {{category}} </h1>
                 <hr>
                 </div>
                 {%for post in posty%}
@@ -49,7 +49,7 @@
                 </div>
                 {% endfor %}
             </div>
-            <div id = "aside">
+            <!-- <div id = "aside">
                 <div id = "popular_posts_h1">
                 <h1> Popular Posts </h1>
                 </div>
@@ -77,14 +77,14 @@
                 </div>
                 <div id = "social_btns">
                     <fieldset>
-                        <a href = "https://www.facebook.com/" target="_blank"><input type = "button" value = "FB" name = "FB"></a>
-                        <a href = "https://www.youtube.com" target="_blank"><input type = "button" value = "YT" name = "YT"></a>
-                        <a href = "https://twitter.com" target="_blank"><input type = "button" value = "TT" name = "TT"></a>
+                        <input type = "button" value = "FB" name = "FB">
+                        <input type = "button" value = "YT" name = "YT">
+                        <input type = "button" value = "TT" name = "TT">
                     </fieldset>
                 </div>
             </div>
-            </div>
-            <div id = "footer">
+            </div> -->
+            <div id = "footer_category">
                 <p id = "foot_p"> Consectetur aliqua nulla in quis incididunt elit nulla laborum excepteur. Esse sit ea irure esse consequat reprehenderit proident. Incididunt excepteur dolor esse labore Lorem id ex exercitation ullamco.</p>
             </div>
         </div>
