@@ -1,4 +1,6 @@
 #header {
+    width: 78.9%;
+    margin-left: 198px;
 }
 
 p {
@@ -8,7 +10,7 @@ p {
 #main {
     float: left;
     width: 70%;
-    box-shadow: 5px 5px 5px 5px gray;
+    box-shadow: 10px 10px 60px 3px gray;
     background-color: #d3d3d3;
 
 }
@@ -17,13 +19,13 @@ p {
     float: left;
     width: 30%;
     border: 0px #96858F solid;
-    background-color: #171769;
-    box-shadow: 12px 12px 12px 12px gray
+    background-color: #374049;
+    box-shadow: 10px 10px 60px 3px gray;
 }
 
 .aside_h1 {
     text-align: center;
-    color: #bfbfbf;
+    color: #d3d3d3;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -31,9 +33,19 @@ p {
     background-color: #dce0d9;
 }
 
-#logo {
-    background-color: #E7DFDD;
+#menu_btn_search {
+    padding-top: 7px;
+    padding-bottom: 43px;
+    padding-left: 3px;
+    padding-right: 0px;
+    width: 99.78%;
+    border-top: 2px solid gray;
+    background-color: gray;
 
+}
+
+#logo {
+    background-color: #374049;
 }
 
 body {
@@ -41,10 +53,9 @@ body {
 }
 
 #menu_buttons {
-    width: 60%;
+    width: 70%;
     float: left;
-    background-color: #dce0d9;
-
+    background-color: gray;
 }
 
 #footer_fieldset {
@@ -56,6 +67,7 @@ body {
     width: 78.9%;
     float: left;
     background-color: #96858F;
+    box-shadow: 10px 10px 60px 1px gray;
 
 }
 
@@ -71,14 +83,18 @@ body {
 #search_and_btn {
     float: right;
     width: 30%;
+    background-color: gray;
+
+
 }
 
 #search_text {
     width: 100%;
+    height: 30px;
 }
 
 #new_posts_p {
-    width: 1000px;
+    width: 980px;
     white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -86,6 +102,7 @@ body {
     margin: 13px;
     padding-bottom: 7px;
     height: 46px;
+    padding-left: 20px;
 
 }
 
@@ -158,7 +175,7 @@ h1, h2, h3, h4 {
 }
 
 #popular_posts_h1 {
-    background-color: #171769;
+    background-color: #374049;
     padding-bottom: 2px;
 }
 
@@ -224,3 +241,48 @@ hr {
     width: 60%;
 }
 
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #91b8b3;
+	box-shadow:inset 0px 1px 0px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #374049));
+	background:-moz-linear-gradient(top, #768d87 5%, #374049 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #374049 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #374049 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #374049 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #374049 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#374049;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #374049;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+      
+      

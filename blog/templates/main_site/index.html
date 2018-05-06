@@ -8,27 +8,26 @@
     </head>
     <body>
         <div id = "header">
-            <fieldset id = "menu_fieldset">
             <div id = "logo">
                 <img src = "{% static 'images/loremipsum-logo.png' %}" alt = "logo" id = "logo">
-                <hr>
             </div>
+            <div id = "menu_btn_search">
             <div id = "menu_buttons">
-                <a href = "http://127.0.0.1:8000/index/"}><input type = "Button" value = "Home" name = "Menu1"></a>
-                <a href = "http://127.0.0.1:8000/index/world"}><input type = "Button" value = "World" name = "Menu1"></a>
-                <a href = "http://127.0.0.1:8000/index/economy"}><input type = "Button" value = "Economy" name = "Menu1"></a>
-                <a href = "http://127.0.0.1:8000/index/market"}><input type = "Button" value = "Markets" name = "Menu1"> </a>
+                <a href = "http://127.0.0.1:8000/index/" class="myButton" >Home</a>
+                <a href = "http://127.0.0.1:8000/index/world" class ="myButton">World</a>
+                <a href = "http://127.0.0.1:8000/index/economy" class ="myButton">Economy</a>
+                <a href = "http://127.0.0.1:8000/index/market" class ="myButton">Markets</a>
             </div>
             <div id = "search_and_btn">
                 <div id = "search">
                     <input type = "search" placeholder="Search the site..." id = "search_text">
                 </div>
                 <div id = "search_btn">
-                    <input type = "button" value = search>
+                    <a href="#" class ="myButton">Search</a>
                 </div>
             </div>
             </div>
-            </fieldset>
+            </div>
             <div id = "main_aside">
             <div id = "main">
                 <div id = "post_h1">
@@ -73,7 +72,7 @@
                     <input type="text" placeholder=" email " name = "newsletter_input" id = "news_input">
                     </div>
                     <div id = "submit_btn">
-                    <input type = "submit" value = "Send!" id = "submit_btn">
+                    <a href = "#" class="myButton">Send!</a>
                     </div>
                 </div>
                 <div id = "social_btns">
