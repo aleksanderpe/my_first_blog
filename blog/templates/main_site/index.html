@@ -40,11 +40,10 @@
                     {% if forloop.counter == 4 or forloop.counter == 3 or forloop.counter == 2 or forloop.counter == 5 or forloop.counter == 6 or forloop.counter == 7 %}         
                         <hr>
                     {% endif %}
-                    <h3> {{post.post_title}}</h3>
+                    <a style="text-decoration: none;" href="http://127.0.0.1:8000/index/{{post.id}}"><h3 class="main_h1"> {{post.post_title}}</h3></a>
                     <p id = "new_posts_p">
                         {{post.content}}
                     </p>
-                    <a href="http://127.0.0.1:8000/index/{{post.id}}"><h4> Czytaj Dalej! </h4></a>
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -57,11 +56,10 @@
                 <div id = "{{ post.id }}">
                     {% if forloop.counter == 4 or forloop.counter == 3 or forloop.counter == 2 or forloop.counter == 1 %}
                         <hr>
-                        <h3 class = "aside_h1"> {{ post.post_title }} </h3> 
+                        <a style="text-decoration: none;" href="http://127.0.0.1:8000/index/{{post.id}}"> <h3 class = "aside_h1"> {{ post.post_title }} </h3> 
                         <p id = "popular_posts_p" class = "aside_h1">
                             {{ post.content }}
                         </p>
-                        <a href="http://127.0.0.1:8000/index/{{post.id}}"><h4 class = "aside_h1"> Czytaj Dalej! </h4></a>
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -76,11 +74,9 @@
                     </div>
                 </div>
                 <div id = "social_btns">
-                    <fieldset>
-                        <a href = "https://www.facebook.com/" target="_blank"><input type = "button" value = "FB" name = "FB"></a>
-                        <a href = "https://www.youtube.com" target="_blank"><input type = "button" value = "YT" name = "YT"></a>
-                        <a href = "https://twitter.com" target="_blank"><input type = "button" value = "TT" name = "TT"></a>
-                    </fieldset>
+                    <a href = "https://www.facebook.com/"><input type="image" src="{% static 'images/fb.png' %}" width=64px height = 64px></a>
+                    <a href = "https://www.youtube.com/"><input type="image" src="{% static 'images/yt.png' %}" width=64px height = 64px></a>
+                    <a href = "https://twitter.com/"><input type="image" src="{% static 'images/tt.png' %}" width=64px height = 64px></a>
                 </div>
             </div>
             </div>

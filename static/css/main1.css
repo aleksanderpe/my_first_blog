@@ -12,6 +12,7 @@ p {
     width: 70%;
     box-shadow: 10px 10px 60px 3px gray;
     background-color: #d3d3d3;
+    height: 1500px;
 
 }
 
@@ -21,6 +22,7 @@ p {
     border: 0px #96858F solid;
     background-color: #374049;
     box-shadow: 10px 10px 60px 3px gray;
+    height: 1500px;
 }
 
 .aside_h1 {
@@ -64,10 +66,10 @@ body {
 
 #footer {
     margin-left: 200px;
-    width: 78.9%;
+    width: 78.85%;
     float: left;
-    background-color: #96858F;
-    box-shadow: 10px 10px 60px 1px gray;
+    background-color: #374049;
+    box-shadow: 10px 10px 60px 1px #374049;
 
 }
 
@@ -100,16 +102,18 @@ body {
     text-overflow: ellipsis;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 13px;
-    padding-bottom: 7px;
-    height: 46px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    height: 64px;
     padding-left: 20px;
 
 }
 
+
 h1, h2, h3, h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: #374049
+    color: #374049;
 }
 
 #popular_posts_p {
@@ -157,6 +161,7 @@ h1, h2, h3, h4 {
     margin: 100px;
     padding-top: 100px;
     font-family: 'Times New Roman', Times, serif;
+    color: #d3d3d3;
 }
 
 #social_btns {
@@ -192,6 +197,10 @@ h1, h2, h3, h4 {
     border-bottom: 2px #96858F solid;
     background-color: #dce0d9;
     height: 1000px;
+}
+
+.main_h1 {
+    margin: 20px;
 
 }
 #footer_12 {
@@ -201,11 +210,11 @@ h1, h2, h3, h4 {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    border-right: 2px #96858F solid;
-    border-top: 2px #96858F solid;
-    border-left: 2px #96858F solid;
-    border-bottom: 2px #96858F solid;
-    background-color: #96858F;
+    border-right: 2px #374049 solid;
+    border-top: 2px #374049 solid;
+    border-left: 2px #374049 solid;
+    border-bottom: 2px #374049 solid;
+    background-color: #374049;
 
 }
 .href {
@@ -282,7 +291,3 @@ hr {
 	position:relative;
 	top:1px;
 }
-
-
-      
-      
